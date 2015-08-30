@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ApiTest" parallel="none">
+  <test name="ApiTest">
+ 	 <parameter name="path" value="data.xls"></parameter>
+     <parameter name="sheetName" value="input"></parameter>
+  
+    <classes>
+      <class name="com.kaikeba.server.api.utils.HTTPRequestTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

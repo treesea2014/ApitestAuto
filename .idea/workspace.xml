@@ -1,0 +1,1559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8f4e338-57d5-46bc-93fe-5f1d048d0c32" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/course/CourseCollectionsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsInstructors/InstructorsDelete.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsUnit/LcmsUnitTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsQuizzes/QuizzesDelete.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsQuizzes/QuizzesUpdate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\student\ActivateTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/student/ActivateTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\cmsAdmin\AdminAddTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsAdmin/AdminAddTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\cmsAdmin\AdminSelectTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsAdmin/AdminSelectTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\cmsAdmin\AdminUpdateTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsAdmin/AdminUpdateTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\cmsAdmin\AdminZeleteTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsAdmin/AdminZeleteTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\announcement\AnnouncementAddTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/announcement/AnnouncementAddTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\announcement\AnnouncementGetInfoByIdTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/announcement/AnnouncementGetInfoByIdTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\announcement\AnnouncementSelectByIdTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/announcement/AnnouncementSelectByIdTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiAuto.iml" afterPath="$PROJECT_DIR$/ApiAuto.iml" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\Api_SchoolHostsTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/Api_SchoolHostsTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\CategoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/CategoryTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\lcmsOCInfo\CheckCourseTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/lcmsOCInfo/CheckCourseTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\Cms_CourseCategoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/Cms_CourseCategoryTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\course\ConcludedEnrollCourseInfoTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/course/ConcludedEnrollCourseInfoTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\courseVersion\CopyCourseTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/courseVersion/CopyCourseTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\course\CourseAnnouncementTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/course/CourseAnnouncementTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\course\CoutsesTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/course/CoutsesTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\studentUser\EnrollmentZeleteTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/studentUser/EnrollmentZeleteTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\studentUser\EnrollmentsAddTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/studentUser/EnrollmentsAddTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\course\GetCourseInfoTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/course/GetCourseInfoTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\courseVersion\GetCourseVsersionsTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/courseVersion/GetCourseVsersionsTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\learnLog\GetLearnLogTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/learnLog/GetLearnLogTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\lcmsOCInfo\GetPackagesAndContentsTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/lcmsOCInfo/GetPackagesAndContentsTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\users\GetUsersInfo.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/users/GetUsersInfo.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\KAuthTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/KAuthTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LoginTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\microMajots\MicroMajorsValidationTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/microMajots/MicroMajorsValidationTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\microMajots\MicroMajotsActiveTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/microMajots/MicroMajotsActiveTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\microMajots\MicroMajotsIntroTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/microMajots/MicroMajotsIntroTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\microMajots\MicroMajotsTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/microMajots/MicroMajotsTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\lcmsOCInfo\OcEnrollmentTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/lcmsOCInfo/OcEnrollmentTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\studentUser\StudentUserAddTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/studentUser/StudentUserAddTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\studentUser\StudentUserListTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/studentUser/StudentUserListTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\studentUser\StudentUserRestartTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/studentUser/StudentUserRestartTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\studentUser\StudentUserSelectTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/studentUser/StudentUserSelectTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\studentUser\StudentUserUpdateTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/studentUser/StudentUserUpdateTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\studentUser\StudentUserZeleteTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/studentUser/StudentUserZeleteTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\cmsTenants\tenantsAdminUsers\TenantsAdminUsersAddTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsTenants/tenantsAdminUsers/TenantsAdminUsersAddTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\cmsTenants\tenantsAdminUsers\TenantsAdminUsersSelectTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsTenants/tenantsAdminUsers/TenantsAdminUsersSelectTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\cmsTenants\tenantsAdminUsers\TenantsAdminUsersUpdateTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsTenants/tenantsAdminUsers/TenantsAdminUsersUpdateTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\cmsTenants\tenantsAdminUsers\TenantsAdminUsersZeleteTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsTenants/tenantsAdminUsers/TenantsAdminUsersZeleteTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\cmsTenants\TenantsCourseTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsTenants/TenantsCourseTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\studentUser\TenantsGetAllClassTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/studentUser/TenantsGetAllClassTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\cmsTenants\TenantsPerFunctionTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsTenants/TenantsPerFunctionTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\cmsTenants\tenantsRoles\TenantsRoleSelectTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsTenants/tenantsRoles/TenantsRoleSelectTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\cmsTenants\tenantsRoles\TenantsRolesAddTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsTenants/tenantsRoles/TenantsRolesAddTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\cmsTenants\TenantsRolesPerFunctionTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsTenants/TenantsRolesPerFunctionTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\cmsTenants\tenantsRoles\TenantsRolesUpdateTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsTenants/tenantsRoles/TenantsRolesUpdateTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\cmsTenants\tenantsRoles\TenantsRolesZeleteTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsTenants/tenantsRoles/TenantsRolesZeleteTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\cmsTenants\TenantsTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsTenants/TenantsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/TestConfig.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/TestConfig.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\users\UserCheckEmailOrMobilTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/users/UserCheckEmailOrMobilTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\users\UsersLoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/users/UsersLoginTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\users\UsersPermiFunctionTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/users/UsersPermiFunctionTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\student\ValidationTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/student/ValidationTest.java" />
+      <change type="MODIFICATION" beforePath="E:\git_repository\ApiTest\src\test\java\org\kkb\server\api\restassured\ZhaoZuoTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/ZhaoZuoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
+    <ignored path="ApiAuto.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ApiAuto" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CoursePostTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsCourse/CoursePostTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8807157" vertical-offset="684" max-vertical-offset="6233">
+              <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstructorsUpdate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsInstructors/InstructorsUpdate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4562" max-vertical-offset="5037">
+              <caret line="212" column="1" selection-start-line="212" selection-start-column="1" selection-end-line="212" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidatableResponseImpl.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.3.2/rest-assured-2.3.2-sources.jar!/com/jayway/restassured/internal/ValidatableResponseImpl.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
+              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseGetTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsCourse/CourseGetTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2829">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstructorsCreate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsInstructors/InstructorsCreate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1186" max-vertical-offset="4209">
+              <caret line="79" column="81" selection-start-line="67" selection-start-column="8" selection-end-line="79" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseDeleteTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsCourse/CourseDeleteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstructorsDelete.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsInstructors/InstructorsDelete.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="299">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoursePutTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsCourse/CoursePutTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1311" max-vertical-offset="5888">
+              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstructorsGet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsInstructors/InstructorsGet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2052" max-vertical-offset="2691">
+              <caret line="105" column="46" selection-start-line="105" selection-start-column="46" selection-end-line="105" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidatableResponseOptions.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.3.2/rest-assured-2.3.2-sources.jar!/com/jayway/restassured/response/ValidatableResponseOptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="28331" max-vertical-offset="29118">
+              <caret line="1280" column="37" selection-start-line="1280" selection-start-column="37" selection-end-line="1280" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/cmsTenants/tenantsRoles/TenantsRolesZeleteTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/lcmsOCInfo/GetPackagesAndContentsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/lcmsOCInfo/OcEnrollmentTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/cmsAdmin/AdminZeleteTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/microMajots/MicroMajorsValidationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/microMajots/MicroMajotsIntroTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/microMajots/MicroMajotsActiveTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/users/GetUsersInfo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/course/CourseCollectionsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/Unit/UnitTestTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/Unit/UnitTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/LcmsUnit/LcmsUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/LcmsCourse/LcmsCourseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/LcmsCourse/LcmsCoursePostTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/LcmsCourse/LcmsCoursePutTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/LcmsCourse/LcmsCourseGetTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/LcmsCourse/CourseGetTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/LcmsCourse/CourseDeleteTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/LcmsCourse/CoursePutTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/LcmsQuizzes/QuizzesDelete.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/LcmsInstructors/InstructorsDelete.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/LcmsInstructors/InstructorsUpdate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/TestConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/LcmsInstructors/InstructorsCreate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/LcmsInstructors/InstructorsGet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restAssured/LcmsCourse/CoursePostTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsInstructors/InstructorsUpdate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsInstructors/InstructorsGet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsCourse/CourseGetTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsInstructors/InstructorsCreate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsCourse/CoursePostTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\Java\apache-maven-3.0.5" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ApiAuto" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ApiAuto" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ApiAuto" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="restassured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="restassured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LcmsInstructors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="restassured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LcmsCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="restassured" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="courseVersion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.kkb.server.api.restAssured.Unit" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.kkb.server.api.restAssured.LcmsInstructors" />
+      <recent name="org.kkb.server.api.restAssured.LcmsQuizzes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.CoursePostTest">
+    <configuration default="false" name="InstructorsCreate" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.kkb.server.api.restassured.LcmsInstructors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ApiAuto" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="org.kkb.server.api.restassured.LcmsInstructors" />
+      <option name="MAIN_CLASS_NAME" value="org.kkb.server.api.restassured.LcmsInstructors.InstructorsCreate" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="35654" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CourseGetTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.kkb.server.api.restassured.LcmsCourse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ApiAuto" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="org.kkb.server.api.restassured.LcmsCourse" />
+      <option name="MAIN_CLASS_NAME" value="org.kkb.server.api.restassured.LcmsCourse.CourseGetTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="38593" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CourseGetTest.testGetByPagesCourse" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.kkb.server.api.restassured.LcmsCourse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ApiAuto" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="org.kkb.server.api.restassured.LcmsCourse" />
+      <option name="MAIN_CLASS_NAME" value="org.kkb.server.api.restassured.LcmsCourse.CourseGetTest" />
+      <option name="METHOD_NAME" value="testGetByPagesCourse" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="40078" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CourseGetTest.testGetCourseWithCorrectToken" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.kkb.server.api.restassured.LcmsCourse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ApiAuto" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="org.kkb.server.api.restassured.LcmsCourse" />
+      <option name="MAIN_CLASS_NAME" value="org.kkb.server.api.restassured.LcmsCourse.CourseGetTest" />
+      <option name="METHOD_NAME" value="testGetCourseWithCorrectToken" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="42310" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CoursePostTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.kkb.server.api.restassured.LcmsCourse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ApiAuto" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="org.kkb.server.api.restassured.LcmsCourse" />
+      <option name="MAIN_CLASS_NAME" value="org.kkb.server.api.restassured.LcmsCourse.CoursePostTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="45302" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="TestNG.InstructorsCreate" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.CourseGetTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.CourseGetTest.testGetByPagesCourse" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.CourseGetTest.testGetCourseWithCorrectToken" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.CoursePostTest" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.CoursePostTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.CourseGetTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.CourseGetTest.testGetCourseWithCorrectToken" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.CourseGetTest.testGetByPagesCourse" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.InstructorsCreate" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8f4e338-57d5-46bc-93fe-5f1d048d0c32" name="Default" comment="" />
+      <created>1435133861741</created>
+      <updated>1435133861741</updated>
+      <workItem from="1435133866381" duration="87000" />
+      <workItem from="1435134010384" duration="1196000" />
+      <workItem from="1436149397265" duration="981000" />
+      <workItem from="1436238059787" duration="549000" />
+      <workItem from="1436239943441" duration="10001000" />
+      <workItem from="1436335769130" duration="6241000" />
+      <workItem from="1436508706477" duration="967000" />
+      <workItem from="1436860137334" duration="624000" />
+      <workItem from="1436926708353" duration="31000" />
+      <workItem from="1436930244126" duration="11851000" />
+      <workItem from="1437012926847" duration="28171000" />
+      <workItem from="1437098761255" duration="5675000" />
+      <workItem from="1437133283849" duration="1768000" />
+      <workItem from="1437377338170" duration="2033000" />
+      <workItem from="1437448886080" duration="10887000" />
+      <workItem from="1437554264478" duration="5536000" />
+      <workItem from="1437976656358" duration="13101000" />
+      <workItem from="1438050266050" duration="10939000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="110638000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35113636" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11366062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27427962" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09284952" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3840909" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="30" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/microMajots/MicroMajorsValidationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1317" max-vertical-offset="1702">
+          <caret line="59" column="88" selection-start-line="59" selection-start-column="88" selection-end-line="59" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/microMajots/MicroMajotsIntroTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="194" max-vertical-offset="736">
+          <caret line="19" column="82" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/microMajots/MicroMajotsActiveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2894" max-vertical-offset="3565">
+          <caret line="110" column="79" selection-start-line="110" selection-start-column="79" selection-end-line="110" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/studentUser/StudentUserSelectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="1403">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/studentUser/StudentUserZeleteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1886">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/studentUser/StudentUserUpdateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1137" max-vertical-offset="1840">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/ZhaoZuoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="1426">
+          <caret line="40" column="101" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/CategoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1357">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/studentUser/TenantsGetAllClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29113925" vertical-offset="69" max-vertical-offset="1035">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/course/ConcludedEnrollCourseInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="1012">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/course/CoutsesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1564">
+          <caret line="47" column="53" selection-start-line="45" selection-start-column="7" selection-end-line="47" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="7984" max-vertical-offset="12259">
+          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/course/CourseCollectionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="621" max-vertical-offset="3565">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="39" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/users/GetUsersInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="598">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.3.2/rest-assured-2.3.2-sources.jar!/com/jayway/restassured/http/ContentType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="3335">
+          <caret line="77" column="7" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="46785" max-vertical-offset="70265">
+          <caret line="2119" column="0" selection-start-line="2119" selection-start-column="0" selection-end-line="2119" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.3.2/rest-assured-2.3.2-sources.jar!/com/jayway/restassured/specification/FilterableRequestSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="2323">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/courseVersion/GetCourseVsersionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1081">
+          <caret line="41" column="53" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.3.2/rest-assured-2.3.2-sources.jar!/com/jayway/restassured/internal/http/CharsetExtractor.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="509" max-vertical-offset="1104">
+          <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.3.2/rest-assured-2.3.2-sources.jar!/com/jayway/restassured/internal/RequestSpecificationImpl.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="36269" max-vertical-offset="40664">
+          <caret line="1757" column="13" selection-start-line="1757" selection-start-column="13" selection-end-line="1757" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.3.2/rest-assured-2.3.2-sources.jar!/com/jayway/restassured/RestAssured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="14536" max-vertical-offset="35466">
+          <caret line="690" column="7" selection-start-line="690" selection-start-column="7" selection-end-line="690" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1449" max-vertical-offset="6164">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.3.2/rest-assured-2.3.2-sources.jar!/com/jayway/restassured/specification/RequestSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="27975" max-vertical-offset="37007">
+          <caret line="1097" column="25" selection-start-line="1097" selection-start-column="25" selection-end-line="1097" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/annotations/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3407" max-vertical-offset="4232">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.3.2/rest-assured-2.3.2-sources.jar!/com/jayway/restassured/internal/TestSpecificationImpl.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4532" max-vertical-offset="4945">
+          <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsQuizzes/QuizzesUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="299">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsUnit/LcmsUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1127" max-vertical-offset="6946">
+          <caret line="65" column="127" selection-start-line="65" selection-start-column="95" selection-end-line="65" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/KAuthTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="1725">
+          <caret line="27" column="70" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsQuizzes/QuizzesDelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="299">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24435319" vertical-offset="272" max-vertical-offset="2001">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/lcmsOCInfo/OcEnrollmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="696" max-vertical-offset="1909">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsTenants/tenantsAdminUsers/TenantsAdminUsersUpdateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="194" max-vertical-offset="1035">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/cmsTenants/tenantsRoles/TenantsRolesUpdateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1541">
+          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2277">
+          <caret line="46" column="41" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.3.2/rest-assured-2.3.2-sources.jar!/com/jayway/restassured/response/ResponseBodyData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="782">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.3.2/rest-assured-2.3.2-sources.jar!/com/jayway/restassured/internal/print/ResponsePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="1794">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.3.2/rest-assured-2.3.2-sources.jar!/com/jayway/restassured/response/ValidatableResponseLogSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2226" max-vertical-offset="3013">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.3.2/rest-assured-2.3.2-sources.jar!/com/jayway/restassured/internal/ValidatableResponseOptionsImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2857144" vertical-offset="447" max-vertical-offset="8602">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.3.2/rest-assured-2.3.2-sources.jar!/com/jayway/restassured/response/ValidatableResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#943#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.3.2/rest-assured-2.3.2-sources.jar!/com/jayway/restassured/internal/ValidatableResponseImpl.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.3.2/rest-assured-2.3.2-sources.jar!/com/jayway/restassured/response/ValidatableResponseOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="28331" max-vertical-offset="29118">
+          <caret line="1280" column="37" selection-start-line="1280" selection-start-column="37" selection-end-line="1280" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/courseVersion/CopyCourseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.817623" vertical-offset="0" max-vertical-offset="2047">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsInstructors/InstructorsUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4562" max-vertical-offset="5037">
+          <caret line="212" column="1" selection-start-line="212" selection-start-column="1" selection-end-line="212" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsInstructors/InstructorsGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2052" max-vertical-offset="2691">
+          <caret line="105" column="46" selection-start-line="105" selection-start-column="46" selection-end-line="105" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsInstructors/InstructorsDelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="299">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsCourse/CourseDeleteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsCourse/CoursePutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1311" max-vertical-offset="5888">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsInstructors/InstructorsCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1186" max-vertical-offset="4209">
+          <caret line="79" column="81" selection-start-line="67" selection-start-column="8" selection-end-line="79" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsCourse/CourseGetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2829">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kkb/server/api/restassured/LcmsCourse/CoursePostTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8807157" vertical-offset="684" max-vertical-offset="6233">
+          <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ApiAuto</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: apache-beanutils:commons-beanutils:1.7.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
