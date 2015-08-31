@@ -2,10 +2,8 @@ package com.kaikeba.server.api.utils;
 
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Set;
 
-import net.sf.json.JSONObject;
-
-import org.json.JSONException;
 import org.skyscreamer.jsonassert.JSONCompare;
 import org.skyscreamer.jsonassert.JSONCompareMode;
 import org.skyscreamer.jsonassert.JSONCompareResult;
@@ -20,6 +18,8 @@ import org.testng.annotations.Test;
 import com.gxb.server.api.beans.InputData;
 import com.jayway.restassured.response.Response;
 
+import net.sf.json.JSONObject;
+
 public class HTTPRequestTest {
 	private ExcelUtils excel;
 	private String path = "";
@@ -31,7 +31,6 @@ public class HTTPRequestTest {
 	@Parameters({ "path", "sheetName"})
 	public void initDataPath(String path, String sheetName){
 		this.path  = System.getProperty("user.dir")+"/src/test/resources/testData/"+path;
-		//this.path = this.getClass().getClassLoader().getResource("").getPath()+"testData/"+path;
 		this.sheetName = sheetName;
 	}
 	@DataProvider(name = "iterator")
@@ -42,7 +41,7 @@ public class HTTPRequestTest {
 	}
 
 	@Test(dataProvider = "iterator")
-	public void run(String lineNum, InputData input) {
+	public void run(String lineNum, InputData input)  {
 		TestConfig reqSpec = new TestConfig(input.getHost(),
 				input.getContentType());
 		excel = new ExcelUtils();
@@ -51,40 +50,50 @@ public class HTTPRequestTest {
 
 		JSONCompareResult result = null;
 		switch (input.getCallType()) {
-		case "GET": {
-			response = reqSpec.get(input.getCallSuff());
-			break;
-		}
-		case "POST": {
-			jsonObject = new JSONObject();
-			jsonObject = JSONObject.fromObject(input.getBody());
-			;
-			response = reqSpec.post(input.getCallSuff(), jsonObject);
-			break;
-		}
-		case "PUT": {
-			jsonObject = new JSONObject();
-			jsonObject = JSONObject.fromObject(input.getBody());
-			;
-			response = reqSpec.put(input.getCallSuff(), jsonObject);
-			break;
-		}
-		case "DELETE": {
-			response = reqSpec.delete(input.getCallSuff());
-			break;
-		}
+			case "GET": {
+				response = reqSpec.get(input.getCallSuff());
+				break;
+			}
+			case "POST": {
+				String[] body = input.getBody().split(",");
+				String resul = "";
+				for(int i =0;i<body.length;i++){
+					if(body[i].contains("null")){
+						int a = body[i].indexOf("\"");
+						int b = body[i].indexOf(",");
+						
+						resul = " "+body[i].substring(0, a) + body[i].substring(b+1, body[i].length());
+						body[i] = resul;
+					}
+				System.out.println(body.toString());	
+				}
+				jsonObject = JSONObject.fromObject(input.getBody().replaceAll("null", " ").toString());
 
-		default: {
-			logger.error("第 [" + input.getID() + "]行数据, 未知请求类型: ["
-					+ input.getCallType() + "]");
-		}
+				response = reqSpec.post(input.getCallSuff(), jsonObject);
+				break;
+			}
+			case "PUT": {
+				//jsonObject = new JSONObject();
+				jsonObject = JSONObject.fromObject(input.getBody());
+				response = reqSpec.put(input.getCallSuff(), jsonObject);
+				break;
+			}
+			case "DELETE": {
+				response = reqSpec.delete(input.getCallSuff());
+				break;
+			}
+	
+			default: {
+				logger.error("第 [" + input.getID() + "]行数据, 未知请求类型: ["
+						+ input.getCallType() + "],只能是GET POST PUT DELETE 等等...");
+			}
 		
 		}
-		//返回结果写入 实际返回值
+		
+		//返回结果写入 实际返回值,11对应实际返回reponse
 		excel.writeResultAtExcel(path, sheetName, Integer.parseInt(lineNum), 11,
 				response.asString());
-		if(response.asString().contains("<html"))
-			result = null;
+	
 		try {
 			result = JSONCompare.compareJSON(input.getExpectResponse(),
 					response.asString(), JSONCompareMode.NON_EXTENSIBLE);
@@ -96,18 +105,18 @@ public class HTTPRequestTest {
 			e.printStackTrace();
 		}
 
-		if (result==null||!result.passed()) {
+		if (!result.passed()) {
 
 			excel.writeResultAtExcel(path, sheetName, Integer.parseInt(lineNum), 15,
 					result == null ? "Error" : result);
 
 			excel.writeResultAtExcel(path, sheetName, Integer.parseInt(lineNum), 14,
-					"No");
+					"failed");
 
 			Assert.fail("第"+lineNum+"行数据，接口测试失败！");
 		} else {
 			excel.writeResultAtExcel(path, sheetName, Integer.parseInt(lineNum), 14,
-					"Yes");
+					"passed");
 		}
 
 	}

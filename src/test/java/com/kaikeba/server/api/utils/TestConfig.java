@@ -3,9 +3,13 @@ package com.kaikeba.server.api.utils;
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
 import com.jayway.restassured.specification.RequestSpecification;
+
 import net.sf.json.JSONObject;
 
 import static com.jayway.restassured.RestAssured.given;
+
+
+
 
 /**
  * treesea
@@ -49,9 +53,8 @@ public class TestConfig {
 	}
 
 	public Response post(String url, JSONObject jsonObject) {
-
-		RequestSpecification requestSpecification = TestConfig
-				.requestSpecification().body(jsonObject);
+        RequestSpecification requestSpecification= TestConfig.requestSpecification().body(jsonObject);
+	
 		Response response = requestSpecification.when().post(url);
 		return response;
 	}

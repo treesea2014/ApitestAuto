@@ -5,10 +5,12 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -90,7 +92,7 @@ public class ExcelUtils {
 	 * @return set.Iterator<>
 	 */
 	public Iterator<Object[]> formatInputData(Map<Integer, String[]> map) {
-		Set<Object[]> set = new HashSet<Object[]>();
+		List<Object[]> set = new ArrayList<Object[]>();
 		InputData inputData;
 		for (Entry<Integer, String[]> entry : map.entrySet()) {
 			String test_ID = entry.getKey().toString();
