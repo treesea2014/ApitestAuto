@@ -375,35 +375,5 @@ public class ExcelWriter {
 
         }    
         
-        /*public JSONObject StringToJsonObject(String jsonMessage) throws JSONException{
-        	JSONArray myJsonArray = new JSONArray(jsonMessage);
-        	    //获取每一个JsonObject对象
-        	  return   myJsonArray.getJSONObject(0);        	
-        	  }*/
-        
-    	public void writeResultAtExcel(List<String> contents, int column) {
-    		FileInputStream input = null;
-    		FileOutputStream output = null;
-    		try {
-    			input = new FileInputStream(this.path);
-    			HSSFWorkbook workBook = new HSSFWorkbook(input);
-    			HSSFSheet sheet = workBook.getSheetAt(0);
-    			for(int i=1; i<=contents.size(); i++) {
-    				HSSFCell cell = sheet.getRow(i).createCell(column);
-    				cell.setCellValue(contents.get(i-1));
-    				output = new FileOutputStream(path);
-    				workBook.write(output);
-    			}
-    			
-    		} catch (Exception e) {
-    			e.printStackTrace();
-    		} finally {
-    			try {
-    				input.close();
-    				output.close();
-    			} catch (IOException e) {
-    				e.printStackTrace();
-    			}
-    		}
-    	}
+       
 }
