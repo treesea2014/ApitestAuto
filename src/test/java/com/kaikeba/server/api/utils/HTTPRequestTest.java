@@ -30,7 +30,8 @@ public class HTTPRequestTest {
 	@BeforeTest
 	@Parameters({ "path", "sheetName"})
 	public void initDataPath(String path, String sheetName){
-		this.path = this.getClass().getClassLoader().getResource("").getPath()+"testData/"+path;
+		this.path  = System.getProperty("user.dir")+"/src/test/resources/testData/"+path;
+		//this.path = this.getClass().getClassLoader().getResource("").getPath()+"testData/"+path;
 		this.sheetName = sheetName;
 	}
 	@DataProvider(name = "iterator")
@@ -77,6 +78,7 @@ public class HTTPRequestTest {
 			logger.error("第 [" + input.getID() + "]行数据, 未知请求类型: ["
 					+ input.getCallType() + "]");
 		}
+		
 		}
 		//返回结果写入 实际返回值
 		excel.writeResultAtExcel(path, sheetName, Integer.parseInt(lineNum), 11,
@@ -84,8 +86,8 @@ public class HTTPRequestTest {
 		if(response.asString().contains("<html"))
 			result = null;
 		try {
-			/*result = JSONCompare.compareJSON(input.getExpectResponse(),
-					response.asString(), JSONCompareMode.NON_EXTENSIBLE);*/
+			result = JSONCompare.compareJSON(input.getExpectResponse(),
+					response.asString(), JSONCompareMode.NON_EXTENSIBLE);
 			
 		} catch (Exception e) {
 			logger.error("第 [" + input.getID() + "]行数据 ,结果比对失败！");
