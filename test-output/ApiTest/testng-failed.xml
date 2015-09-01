@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [ApiTest]" parallel="none">
-  <parameter name="path" value="data.xls"/>
+  <parameter name="path" value="requestdata.xls"/>
   <parameter name="sheetName" value="input"/>
   <test name="ApiTest(failed)" parallel="none">
-    <parameter name="path" value="data.xls"/>
+    <parameter name="path" value="requestdata.xls"/>
     <parameter name="sheetName" value="input"/>
     <classes>
       <class name="com.kaikeba.server.api.utils.HTTPRequestTest">
         <methods>
-          <include name="run" invocation-numbers="0 1 2"/>
+          <include name="run" invocation-numbers="0"/>
           <include name="initDataPath"/>
         </methods>
       </class> <!-- com.kaikeba.server.api.utils.HTTPRequestTest -->

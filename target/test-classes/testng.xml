@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="ApiTest" parallel="none">
   <test name="ApiTest">
- 	 <parameter name="path" value="data.xls"></parameter>
+ 	 <parameter name="path" value="requestdata.xls"></parameter>
      <parameter name="sheetName" value="input"></parameter>
   
     <classes>

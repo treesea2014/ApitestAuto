@@ -1,77 +1,106 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">ApiTest</th></tr><tr><td><a href="#t0">ApiTest</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">15,636</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ApiTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ApiTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.kaikeba.server.api.utils.HTTPRequestTest</td><td><a href="#m0">run</a></td><td rowspan="3">1440943895992</td><td rowspan="3">91</td></tr><tr class="failedeven"><td><a href="#m1">run</a></td></tr><tr class="failedeven"><td><a href="#m2">run</a></td></tr></tbody></table><h2>ApiTest</h2><h3 id="m0">com.kaikeba.server.api.utils.HTTPRequestTest#run</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>2</td><td>InputData [ID=2.0, testCase=2.0, description=2.0, host=http://w-api-h1.kaikeba.com, callSuff=/tenants/1/classes?curPage=1&amp;pageSize=5&amp;sort=enrollments_count-,created_at, callType=GET, authScheme= , authCreds= , accept= , contentType= , body= , ActualResponse=&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-    &lt;meta charset=&quot;UTF-8&quot;&gt;
-    &lt;meta http-equiv=&quot;refresh&quot; content=&quot;3;url=http://www.kaikeba.com&quot;&gt;
-    &lt;title&gt;404&lt;/title&gt;
-    &lt;style&gt;
-        body{
-            background: #fffffe;
-        }
-        .unpage{
-            text-align: center;
-            padding-top: 196px;
-        }
-    &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;container&quot;&gt;
-    &lt;div class=&quot;unpage&quot;&gt;
-        &lt;img alt=&quot;404&quot; src=&quot;/assets/images/404.jpg&quot; &gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;, ExpectResponse= , log= , IsPass=No]</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: µÚ2ÐÐÊý¾Ý£¬½Ó¿Ú²âÊÔÊ§°Ü£¡
-	at com.kaikeba.server.api.utils.HTTPRequestTest.run(HTTPRequestTest.java:105)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.kaikeba.server.api.utils.HTTPRequestTest#run</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1</td><td>InputData [ID=1.0, testCase=1.0, description=1.0, host=http://w-api-h1.kaikeba.com, callSuff=/tenants/1/classes?curPage=1&amp;pageSize=5&amp;sort=enrollments_count-,created_at, callType=GET, authScheme= , authCreds= , accept= , contentType= , body= , ActualResponse=&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-    &lt;meta charset=&quot;UTF-8&quot;&gt;
-    &lt;meta http-equiv=&quot;refresh&quot; content=&quot;3;url=http://www.kaikeba.com&quot;&gt;
-    &lt;title&gt;404&lt;/title&gt;
-    &lt;style&gt;
-        body{
-            background: #fffffe;
-        }
-        .unpage{
-            text-align: center;
-            padding-top: 196px;
-        }
-    &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;container&quot;&gt;
-    &lt;div class=&quot;unpage&quot;&gt;
-        &lt;img alt=&quot;404&quot; src=&quot;/assets/images/404.jpg&quot; &gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;, ExpectResponse= , log= , IsPass=No]</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: µÚ1ÐÐÊý¾Ý£¬½Ó¿Ú²âÊÔÊ§°Ü£¡
-	at com.kaikeba.server.api.utils.HTTPRequestTest.run(HTTPRequestTest.java:105)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.kaikeba.server.api.utils.HTTPRequestTest#run</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>3</td><td>InputData [ID=3.0, testCase=3.0, description=3.0, host=http://w-api-h1.kaikeba.com, callSuff=/tenants/1/classes?curPage=1&amp;pageSize=5&amp;sort=enrollments_count-,created_at, callType=GET, authScheme= , authCreds= , accept= , contentType= , body= , ActualResponse=&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-    &lt;meta charset=&quot;UTF-8&quot;&gt;
-    &lt;meta http-equiv=&quot;refresh&quot; content=&quot;3;url=http://www.kaikeba.com&quot;&gt;
-    &lt;title&gt;404&lt;/title&gt;
-    &lt;style&gt;
-        body{
-            background: #fffffe;
-        }
-        .unpage{
-            text-align: center;
-            padding-top: 196px;
-        }
-    &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;container&quot;&gt;
-    &lt;div class=&quot;unpage&quot;&gt;
-        &lt;img alt=&quot;404&quot; src=&quot;/assets/images/404.jpg&quot; &gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;, ExpectResponse= , log= , IsPass=No]</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: µÚ3ÐÐÊý¾Ý£¬½Ó¿Ú²âÊÔÊ§°Ü£¡
-	at com.kaikeba.server.api.utils.HTTPRequestTest.run(HTTPRequestTest.java:105)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">ApiTest</th></tr><tr><td><a href="#t0">ApiTest</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">43,404</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ApiTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ApiTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.kaikeba.server.api.utils.HTTPRequestTest</td><td><a href="#m0">run</a></td><td rowspan="1">1441019916547</td><td rowspan="1">43191</td></tr></tbody></table><h2>ApiTest</h2><h3 id="m0">com.kaikeba.server.api.utils.HTTPRequestTest#run</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1</td><td>InputData [ID=4.0, testCase=4.0, description=4.0, host=http://w-api-f1.kaikeba.cn, callSuff=/quizzes/1683/quiz_questions?access_token=24a7b17982d28e8b35527108946dab17, callType=POST, authScheme= , authCreds= , accept= , contentType=application/json;charset=utf-8, body={
+    &quot;context_id&quot;: 1,
+    &quot;context_type&quot;: &quot;Course&quot;,
+    &quot;points_possible&quot;: 2.0,
+    &quot;question_type&quot;: &quot;multiple_choice&quot;,
+    &quot;name&quot;:&quot;æµ‹éªŒé¢˜&quot;,
+    &quot;question_name&quot;:&quot;ceshi&quot;,
+    &quot;question_text&quot;:&quot;xxxxxxx&quot;,
+    &quot;correct_comments&quot;:null,
+    &quot;neutral_comments&quot;:null,
+    &quot;incorrect_comments&quot;:null,
+    &quot;level&quot;:&quot;low&quot;,
+    &quot;quiz_id&quot;:1683,
+    &quot;question_data&quot;:null,
+    &quot;required&quot;:false,
+    &quot;video_time_node&quot;:111111,
+    &quot;position&quot;:null,
+    &quot;status&quot;:null,
+    
+    &quot;answers&quot;:[{
+        &quot;text&quot;: &quot;ç­”æ¡ˆä¸€&quot;, 
+        &quot;comments&quot;:&quot;cccc&quot;,
+        &quot;correct&quot;: true,
+        &quot;weight&quot;: 0.2,
+        &quot;position&quot;:null,
+        &quot;status&quot;:null
+    },{
+        &quot;text&quot;: &quot;ç­”æ¡ˆ2&quot;, 
+        &quot;comments&quot;:&quot;cccc&quot;,
+        &quot;correct&quot;: true,
+        &quot;weight&quot;: 0.2,
+        &quot;position&quot;:null,
+        &quot;status&quot;:null
+    }]
+}, ActualResponse={&quot;code&quot;:400,&quot;message&quot;:&quot;Unable to process JSON&quot;,&quot;details&quot;:null}, ExpectResponse={
+  &quot;status&quot;: true,
+  &quot;message&quot;: &quot;success&quot;,
+  &quot;data&quot;: {
+    &quot;id&quot;: 44981,
+    &quot;context_id&quot;: 1,
+    &quot;context_type&quot;: &quot;Course&quot;,
+    &quot;points_possible&quot;: 2,
+    &quot;question_type&quot;: &quot;multiple_choice&quot;,
+    &quot;name&quot;: &quot;æµ‹éªŒé¢˜&quot;,
+    &quot;question_name&quot;: &quot;ceshi&quot;,
+    &quot;question_text&quot;: &quot;xxxxxxx&quot;,
+    &quot;correct_comments&quot;: null,
+    &quot;neutral_comments&quot;: null,
+    &quot;incorrect_comments&quot;: null,
+    &quot;level&quot;: &quot;low&quot;,
+    &quot;quiz_id&quot;: 1683,
+    &quot;quiz_group_id&quot;: 2464,
+    &quot;question_data&quot;: null,
+    &quot;required&quot;: false,
+    &quot;video_time_node&quot;: 111111,
+    &quot;position&quot;: null,
+    &quot;status&quot;: null,
+    &quot;created_at&quot;: 1441000758778,
+    &quot;updated_at&quot;: 1441000758778,
+    &quot;is_deleted&quot;: null,
+    &quot;answers&quot;: null
+  }
+}, log= , IsPass=failed]</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">net.sf.json.JSONException: Missing value. at character 223 of {
+    &quot;context_id&quot;: 1,
+    &quot;context_type&quot;: &quot;Course&quot;,
+    &quot;points_possible&quot;: 2.0,
+    &quot;question_type&quot;: &quot;multiple_choice&quot;,
+    &quot;name&quot;:&quot;æµ‹éªŒé¢˜&quot;,
+    &quot;question_name&quot;:&quot;ceshi&quot;,
+    &quot;question_text&quot;:&quot;xxxxxxx&quot;,
+    &quot;correct_comments&quot;: ,
+    &quot;neutral_comments&quot;: ,
+    &quot;incorrect_comments&quot;: ,
+    &quot;level&quot;:&quot;low&quot;,
+    &quot;quiz_id&quot;:1683,
+    &quot;question_data&quot;: ,
+    &quot;required&quot;:false,
+    &quot;video_time_node&quot;:111111,
+    &quot;position&quot;: ,
+    &quot;status&quot;: ,
+    
+    &quot;answers&quot;:[{
+        &quot;text&quot;: &quot;ç­”æ¡ˆä¸€&quot;, 
+        &quot;comments&quot;:&quot;cccc&quot;,
+        &quot;correct&quot;: true,
+        &quot;weight&quot;: 0.2,
+        &quot;position&quot;: ,
+        &quot;status&quot;: 
+    },{
+        &quot;text&quot;: &quot;ç­”æ¡ˆ2&quot;, 
+        &quot;comments&quot;:&quot;cccc&quot;,
+        &quot;correct&quot;: true,
+        &quot;weight&quot;: 0.2,
+        &quot;position&quot;: ,
+        &quot;status&quot;: 
+    }]
+}
+	at net.sf.json.util.JSONTokener.syntaxError(JSONTokener.java:499)
+	at net.sf.json.util.JSONTokener.nextValue(JSONTokener.java:378)
+	at net.sf.json.JSONObject._fromJSONTokener(JSONObject.java:1008)
+	at net.sf.json.JSONObject._fromString(JSONObject.java:1201)
+	at net.sf.json.JSONObject.fromObject(JSONObject.java:165)
+	at net.sf.json.JSONObject.fromObject(JSONObject.java:134)
+	at com.kaikeba.server.api.utils.HTTPRequestTest.run(HTTPRequestTest.java:70)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

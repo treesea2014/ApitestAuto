@@ -5,7 +5,7 @@
     <classes>
       <class name="com.kaikeba.server.api.utils.HTTPRequestTest">
         <methods>
-          <include name="run" invocation-numbers="0 1 2"/>
+          <include name="run"/>
         </methods>
       </class> <!-- com.kaikeba.server.api.utils.HTTPRequestTest -->
     </classes>
