@@ -55,27 +55,39 @@ public class HTTPRequestTest {
 				break;
 			}
 			case "POST": {
-				String[] body = input.getBody().split(",");
-				String resul = "";
-				for(int i =0;i<body.length;i++){
-					if(body[i].contains("null")){
-						int a = body[i].indexOf("\"");
-						int b = body[i].indexOf(",");
-						
-						resul = " "+body[i].substring(0, a) + body[i].substring(b+1, body[i].length());
-						body[i] = resul;
-					}
-				System.out.println(body.toString());	
-				}
-				jsonObject = JSONObject.fromObject(input.getBody().replaceAll("null", " ").toString());
-
-				response = reqSpec.post(input.getCallSuff(), jsonObject);
-				break;
+				/*			String bodyStr = input.getBody().replaceAll(",","|,");
+							String[] body = bodyStr.split(",");
+							String resul = "";
+							for(int i =0;i<body.length;i++){
+								if(body[i].contains("null")){
+									int a = body[i].indexOf("\"");
+									int b = body[i].indexOf("null");
+									
+									resul = " "+body[i].substring(0, a) + body[i].substring(b+4, body[i].length());
+									body[i] = resul.replace('|', ' ');
+								}else{
+									body[i] = body[i].replace('|', ',');
+								}
+							}
+							String tmp = StringUtils.join(body);
+							tmp.replaceAll("\\|", ",");
+							System.out.println(body.toString());	
+							jsonObject = JSONObject.fromObject(tmp);*/
+							if(input.getBody().contains("null"))
+							{
+								Assert.fail("Body 属性值不能为null,如 name:null , 若测试为空，删除该属性即可！");
+							}
+							jsonObject = JSONObject.fromObject(input.getBody());
+							response = reqSpec.post(input.getCallSuff(), jsonObject);
+							break;
 			}
 			case "PUT": {
-				//jsonObject = new JSONObject();
+				if(input.getBody().contains("null"))
+				{
+					Assert.fail("Body 属性值不能为null,如 name:null , 若测试为空，删除该属性即可！");
+				}
 				jsonObject = JSONObject.fromObject(input.getBody());
-				response = reqSpec.put(input.getCallSuff(), jsonObject);
+				response = reqSpec.post(input.getCallSuff(), jsonObject);
 				break;
 			}
 			case "DELETE": {
